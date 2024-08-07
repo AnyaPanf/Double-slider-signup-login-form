@@ -162,16 +162,20 @@
     transform: translateX(20%);
 }
 
-.social-container {
+.socialContainer {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.social-container a {
+.socialContainer a {
     border: 1px solid #DDDDDD;
-    border-radius: 50%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+
     margin: 0 5px;
     height: 40px;
     width: 40px;
